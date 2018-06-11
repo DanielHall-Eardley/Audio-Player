@@ -1,0 +1,63 @@
+h1{
+  text-align: center;
+  background-color: blanchedalmond;
+  padding: 2%
+}
+
+.audio_player_container{
+display:grid;
+grid-template-columns: 50vw 50vw;
+background-color: rgb(18, 202, 202);
+background-attachment: scroll;
+padding: 1%;
+}
+
+.audio_title, .audio_controls{
+display:flex;
+flex-wrap:wrap;
+justify-content: center;
+}
+
+
+.play, .pause, .skipF, .skipB{
+  background-color: rgb(81, 62, 248);
+  border: black solid 1px;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  border-radius: 5px;
+  transition-duration: 0.5s;
+}
+
+.play:hover, .pause:hover, .skipF:hover, .skipB:hover{
+  background-color: red;
+  color:black;
+}
+
+.list_container{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  background-color: aquamarine;
+  margin: 2%;
+  border-radius: 5px;
+  padding:1%
+}
+
+.list_item{
+  background-color: rgb(255, 253, 127);
+  margin: 2%;
+  border-radius: 5px;
+  padding:1%;
+  text-align: center;
+  grid-column: 1/2
+}
+
+.details{
+  background-color: rgb(255, 253, 127);
+  margin: 2%;
+  border-radius: 5px;
+  padding:1%;
+  text-align: center;
+  grid-column: 2/3;
+  grid-row: 1/3
+}
